@@ -6,7 +6,20 @@ This is an **Arduino-powered LED mask** inspired by [BoyWithUke](https://boywith
 - **Arduino Nano**  
 - **5 LED Matrix Displays (8x8)**  
 - **Ultrasonic Sensor**  
-- **Jump Wires & Resistors**  
+- **Jump Wires & Resistors**
+
+## 🔌 Wiring Diagram  
+<img width="313" alt="Screenshot 2025-02-07 at 10 09 49 PM" src="https://github.com/user-attachments/assets/be36f49c-3193-4275-8c4c-176da091de9b" />
+	•	Connect VCC of MAX7219 & Ultrasonic Sensor to 5V on Nano
+	•	Connect GND of MAX7219 & Ultrasonic Sensor to GND on Nano
+ 
+ ##🚀 How to Upload & Run
+	1.	Install Arduino IDE.
+	2.	Add MD_Parola and MD_MAX72XX libraries in Arduino IDE.
+	3.	Connect Arduino Nano to your PC.
+	4.	Open LED_Matrix_Eyes2.ino → Select Nano Board & Port → Click Upload.
+	5.	Open LED_Matrix_Smile1.ino → Upload it the same way.
+	6.	Power the setup → Enjoy your LED Mask!
 
 ## 🚀 Features  
 ✅ **Dynamic LED eyes** 👀  
